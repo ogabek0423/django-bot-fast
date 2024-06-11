@@ -4,7 +4,7 @@ from crud.city import city_router
 from crud.address import address_router
 from crud.lesson import lesson_router
 from crud.modules import module_router
-from crud.courses import course_router
+# from crud.courses import course_router
 from crud.paytype import pyt_router
 from crud.payment import pay_router
 from crud.product import product_router
@@ -19,7 +19,7 @@ app.include_router(city_router)
 app.include_router(address_router)
 app.include_router(lesson_router)
 app.include_router(module_router)
-app.include_router(course_router)
+# app.include_router(course_router)
 app.include_router(pyt_router)
 app.include_router(pay_router)
 app.include_router(product_router)
